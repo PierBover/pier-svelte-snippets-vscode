@@ -1,0 +1,94 @@
+{
+	"Svelte if block": {
+		"scope": "html",
+		"prefix": "if",
+		"body": [
+			"{#if $1}",
+			"\t$0",
+			"{/if}"
+		],
+		"description": "Svelte if block"
+	},
+	"Svelte else block": {
+		"scope": "html",
+		"prefix": "else",
+		"body": [
+			"{:else}",
+			"\t$0"
+		],
+		"description": "Svelte else block"
+	},
+	"Svelte else-if block": {
+		"scope": "html",
+		"prefix": "else-if",
+		"body": [
+			"{:else if $1}",
+			"\t$0"
+		],
+		"description": "Svelte else-if block"
+	},
+	"Svelte each block": {
+		"scope": "html",
+		"prefix": "each",
+		"body": [
+			"{#each ${1:items} as ${2:item}}",
+			"\t$0",
+			"{/each}"
+		],
+		"description": "Svelte each block"
+	},
+	"Svelte await block": {
+		"scope": "html",
+		"prefix": "await",
+		"body": [
+			"{#await ${1:promise}}",
+			"\t$0",
+			"{/await}"
+		],
+		"description": "Svelte await block"
+	},
+	"Svelte then block": {
+		"scope": "html",
+		"prefix": "then",
+		"body": [
+			"{:then ${1:value}}",
+			"\t$0"
+		],
+		"description": "Svelte then block"
+	},
+	"Svelte catch block": {
+		"scope": "html",
+		"prefix": "catch",
+		"body": [
+			"{:catch ${1:value}}",
+			"\t$0"
+		],
+		"description": "Svelte catch block"
+	},
+	"Svelte key block": {
+		"scope": "html",
+		"prefix": "key",
+		"body": [
+			"{#key ${1:expression}}",
+			"\t$0",
+			"{/key}"
+		],
+		"description": "Svelte key block"
+	},
+	"Svelte html block": {
+		"scope": "html",
+		"prefix": "html",
+		"body": [
+			"{@html ${1:expression}}"
+		],
+		"description": "Svelte html block"
+	},
+	"Svelte debug block": {
+		"scope": "html",
+		"prefix": "debug",
+		"body": [
+			"{@debug ${1:expression}}"
+		],
+		"description": "Svelte debug block"
+	}
+}

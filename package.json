@@ -1,0 +1,21 @@
+{
+	"name": "pier-svelte-snippets",
+	"displayName": "Pier Svelte Snippets",
+	"description": "Pier Svelte Snippets",
+	"version": "0.0.1",
+	"publisher": "pier",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "svelte",
+				"path": "./snippets.json"
+			}
+		]
+	}
+}
